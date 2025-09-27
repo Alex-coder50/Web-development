@@ -1,0 +1,15 @@
+h1
+{
+    background-color: blueviolet;
+}
+body
+{
+    background-image:url("bg.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    /*background-position:center;*/
+    background-attachment:fixed;
+}
+p{
+    color:white;
+}
