@@ -1,0 +1,26 @@
+#p1{
+    font-family: Arial;
+}
+#p2{
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+#p3{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#p4{
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+#p5{
+    text-decoration: underline overline;
+    text-transform:none;
+}
+h3{
+    box-shadow: 34px 2px 30px rgb(254, 33, 33);
+}
+h2{
+    text-shadow: 3px 6px 3px rgb(254, 33, 33);
+    text-indent: 450px;
+}
