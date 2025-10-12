@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>selectors in css</title>
+        <style>
+            body{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                background-color: lightblue;
+                color: darkblue;    
+            }
+            h1 {
+                color: darkslategray;
+            }
+            a {
+                color: darkred;
+                text-decoration: none;
+            }
+            a:hover {
+                color:rgb(17, 240, 165);
+            }
+            ul>li{
+                font-weight: bold;
+            }
+            h1 + p{
+                color: darksalmon;
+            }
+            ul li:hover {
+                color:brown
+            }
+            ul li:nth-child(2) {
+                background-color:rgb(247, 12, 51);
+            }
+            p:not(:first-of-type) {
+                text-decoration: underline;
+            }
+            ul li::before {
+                content: "🚀";
+            }
+            a::after {
+                content: " 🌌";
+            }
+            p::first-letter {
+                font-size: 200%;
+                color:blueviolet
+            }
+
+        </style>
+    </head>
+    <body>
+         <h1>welcome to space x</h1>
+         <ul>
+            <li>moon mission</li>
+            <li>mars mission</li>
+            <li>jupiter mission</li>    
+            <li>saturn mission</li> 
+         </ul>
+            <p>we are going to explore the universe</p>
+            <p>we are universe</p> 
+            <a href="https://www.spacex.com/">click here to visit space x</a>   
+            <a href="https://www.spacex.com/mars">click here to visit mars</a>  
+            <a href="https://www.spacex.com/moon">click here to visit moon</a>  
+    </body>
+</html>
