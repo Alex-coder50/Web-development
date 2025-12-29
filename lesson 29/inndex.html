@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<p id="socos"></p>
+<script>
+      async function add(a,b) {
+        let responce = await a+b;
+        display(responce);
+
+      }
+      
+      function display(some) {
+        document.getElementById("socos").innerHTML = some;
+      }
+      add(7,97)
+</script>
+</body>
+</html>
